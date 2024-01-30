@@ -1,0 +1,36 @@
+{% extends "crm/base.html" %}
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+
+        {% block content %}
+            <div class="register">
+                <h1>Create Your Account</h1>
+                <hr>
+                <form method="POST">
+                    {% csrf_token %}
+                    {{form|crispy}}
+                    <br>
+                    <button type="submit" class="register_button">Register</button>
+                </form>
+                <br>
+                <p>Already have an account?</p> <a href="{% url 'login' %}">Login</a>
+            </div>
+        {% endblock content %}
+
+        <script src="" async defer></script>
+    </body>
+</html>

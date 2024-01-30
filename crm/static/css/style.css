@@ -1,0 +1,313 @@
+/* Home */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: rgb(252, 219, 176);
+    border-radius: 25px;
+    padding: 25px;
+    font-family: sans-serif;
+}
+
+.home h1 a {
+    font-size: 60px;
+    color: #3949AB; /* indigo 600 */
+}
+
+.home a {
+    text-decoration: none;
+    color: #252525;
+    font-size: 30px;
+    margin-top: 30px;
+    transition: calc(0.9s);
+}
+
+.home a:hover {
+    color: #1E88E5; /* Blue 600 */
+    transform: scale(1.2);
+    transition: calc(0.9s);
+}
+
+/* register */
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 50px;
+    border-radius: 25px;
+    padding: 25px;
+    font-family: sans-serif;
+    background-color: rgb(252, 219, 176);
+    border-radius: 50px;
+}
+
+.register h1 {
+    font-size: 60px;
+    color: #3949AB; /* indigo 600 */
+}
+
+.register form {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+}
+
+.register p {
+    font-size: 18px;
+}
+
+.register a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #3949AB; /* indigo 600 */
+}
+
+
+
+.register .register_button {
+    background-color: transparent;
+    color: #3949AB; /* indigo 600 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.register .register_button:hover {
+    background-color: #3949AB; /* indigo 600 */
+    color: #fff;
+}
+
+/* login */
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 25px;
+    padding: 25px;
+    font-family: sans-serif;
+    background-color: rgb(252, 219, 176);
+    border-radius: 50px;
+}
+
+.login h1 {
+    font-size: 60px;
+    color: #3949AB; /* indigo 600 */
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 30px;
+} 
+
+.login p {
+    font-size: 18px;
+}
+
+.login a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #3949AB; /* indigo 600 */
+}
+
+.login .login_button {
+    background-color: transparent;
+    color: #3949AB; /* indigo 600 */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.login .login_button:hover {
+    background-color: #3949AB;
+    color: #fff;
+}
+
+/* record_db */
+.record_db {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 25px;
+    padding: 25px;
+    font-family: sans-serif;
+    background-color: rgb(252, 219, 176);
+    border-radius: 50px;
+}
+
+.record_db h1 {
+    font-size: 60px;
+    color: #3949AB; /* indigo 600 */
+}
+
+.record_db .create {
+    background-color: transparent;
+    color: #3949AB; /* indigo 600 */;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.record_db .create:hover {
+    background-color: #3949AB;
+    color: #fff;
+}
+
+/* update_record */
+.update_record {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 25px;
+    padding: 25px;
+    font-family: sans-serif;
+    background-color: rgb(252, 219, 176);
+    border-radius: 50px;
+}
+
+.update_record h1 {
+    font-size: 60px;
+    color: #3949AB; /* indigo 600 */
+}
+
+.update_record button {
+    background-color: transparent;
+    color: #3949AB; /* indigo 600 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.update_record button:hover {
+    background-color: #3949AB;
+    color: #fff;
+}
+
+/* create_record */
+.create_record {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 25px;
+    padding: 25px;
+    font-family: sans-serif;
+    background-color: rgb(252, 219, 176);
+    border-radius: 50px;
+}
+
+.create_record h1 {
+    font-size: 60px;
+    color: #3949AB; /* indigo 600 */
+}
+
+.create_record_button {
+    background-color: transparent;
+    color: #3949AB; /* indigo 600 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.create_record_button:hover {
+    background-color: #3949AB;
+    color: #fff;
+}
+
+/* view_record */
+.view_record {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 25px;
+    padding: 25px;
+    font-family: sans-serif;
+    background-color: rgb(252, 219, 176);
+    border-radius: 50px;
+}
+
+.view_record .card_body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.view_record h1 {
+    font-size: 60px;
+    color: #3949AB; /* indigo 600 */
+}
+
+.view_record .return {
+    text-decoration: none;
+    color: #fff;
+    background-color: #95A5A6; /* concrete */
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.view_record .update {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498DB; /* peterriver */
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.view_record .delete {
+    text-decoration: none;
+    color: #fff;
+    background-color: #E74C3C; /* alizarin */
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 6px;
+}
+
